@@ -23,6 +23,10 @@
 
 [bif-overview]: https://bif-doc.readthedocs.io/zh-cn/3.0.0/quickstart/%E6%98%9F%E7%81%AB%E9%93%BE%E5%BA%95%E5%B1%82%E5%8C%BA%E5%9D%97%E9%93%BE%E5%B9%B3%E5%8F%B0%E4%BB%8B%E7%BB%8D.html
 
+## News
+
+- [限时免费试用！中国信通院组织开展“星火•链网”开放平台（BOP）应用征集计划 (Oct 24, 2024)](https://mp.weixin.qq.com/s?__biz=MjM5MzU0NjMwNQ==&mid=2650852841&idx=1&sn=883c987472e0807f63606e6cec966eb6&chksm=bcdea7c8a1a3e1a3980944f93674110ec89ef09d4006595ca98ab6c43d063985841b67ea57b1&scene=27)
+
 ## Technical Details
 
 - [General documentation][gen-doc]
