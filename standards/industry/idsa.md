@@ -2,6 +2,47 @@
 
 ## Background
 
+## Dataspace Protocol Specification
+
+Documentation: https://docs.internationaldataspaces.org/ids-knowledgebase/dataspace-protocol
+
+### Terminology
+
+#### Roles
+
+- Participant: A dataspace member that provides and/or consumes datasets.
+- Consumer: A participant agent that requests access to an offered dataset.
+- Provider: A participant agent that offers a Dataset.
+- Identity provider: A trusted technology system that creates, maintains, and manages identity information for a participant and participant Agents.
+- Credential issuer: A trusted technology system that issues verifiable credentials for a participant and participant Agents.
+- Participant agent: A technology system that performs operations on behalf of a participant that offers a dataset.
+- Dataspace authority: An entity that manages a dataspace. The form and capabilities of a dataspace authority are not covered in these specifications.  
+
+#### Items
+
+- *Agreement*: A (usage) policy agreed between the provider and customers on a specific dataset.
+- *Offer*: A concrete policy associate with a specific dataset.
+- *Catalog*: A collection of entries representing the datasets and their corresponding offers.
+- *Dataset*: Data or a technical service that can be shared by a Participant.
+- *DataSpace*: A set of technical services that facilitate interoperable dataset sharing between entities (consumers?).
+- *Policy*: A set of rules, duties, and obligations that define the terms of use for a dataset. Also referred to as "Usage Policy".
+
+#### Protocol-related
+
+- Contract Negotiation Protocol: A set of allowable message yype sequences defined as a state machine.
+- Transfer Process Protocol: A set of allowable message type sequences defined as a state machine.
+- Message: An instantiation of a message type.
+- Message Type: A definition of the structure of a Message.
+
+#### Service-related
+
+- Catalog Service: A participant agent that makes a catalog accessible to participants.
+- Connector (Data Service): A participant agent that produces agreements and manages dataset sharing.
+- Contract Negotiation: A set of instructions between a provider and consumer that establish an agreement. It is an instantiation of the state machine of a contract negotiation protocol.
+- Dataspace Registration Service (Dataspace Registry): A technology system that maintains the state of participants in a dataspace. The form and capabilities of a dataspace registration service are not covered in these specifications.
+- Transfer Process: A set of interactions between a provider and consumer that give access to a dataset under the terms of an agreement. It is an instantiation of the state machine of a transfer process protocol.
+
+
 ## Certification
 
 (Source: https://internationaldataspaces.org/offers/certification/)
