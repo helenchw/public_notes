@@ -56,6 +56,12 @@ Documentation: https://docs.internationaldataspaces.org/ids-knowledgebase/datasp
 
 ## Resources
 
+Youtube channel: https://www.youtube.com/@internationaldataspacesass9223
+
+## Annual Update
+
+- [2024](https://www.youtube.com/watch?v=C7kv8KdxnGM)
+
 ### Publications
 
 - [A Survey of Dataspace Connector Implementations. CEUR Workshop. 2023.](https://ceur-ws.org/Vol-3606/paper41.pdf)
